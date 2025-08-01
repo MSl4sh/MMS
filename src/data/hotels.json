@@ -1,0 +1,163 @@
+{
+    "hotels": [
+      {
+        "id": "disneyland_hotel",
+        "name": "Disneyland Hotel",
+        "type": "Disney",
+        "accommodation_category": "hotel",  
+        "stars": 5,
+        "price_per_night_eur": 750,
+        "address": "Rue de la Marnière, 77700 Chessy, France",
+        "phone": "+33 1 60 30 40 50",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneyland-hotel/",
+        "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/571810091.jpg?k=d5c668f695a04853b9b681f6310711cc8b817c5c074e1ec94cdad9e6c3a8420c&o=",
+        "distance_to_park": "À l’entrée du parc",
+        "features": [
+          "Buffet petit-déjeuner",
+          "Character dining",
+          "Service VIP",
+          "Piscine intérieure & extérieure",
+          "Spa et fitness",
+          "Service de voiturier"
+        ],
+        "rating": 4.8,
+        "description": "Un palace victorien luxueux juste à l’entrée de Disneyland Paris, offrant une expérience royale avec service de première classe."
+      },
+      {
+        "id": "hotel_new_york_marvel",
+        "name": "Disney Hotel New York – The Art of Marvel",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 4,
+        "price_per_night_eur": 450,
+        "address": "Avenue René Goscinny, 77700 Chessy, France",
+        "phone": "+33 1 60 30 40 60",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-hotel-new-york",
+        "image_url": "https://media.disneylandparis.com/d4th/fr-be/images/n032256_2027sep30_world_disney-hotel-new-york-the-art-of-marvel-artwork-with-spider-man_5-2_tcm792-198715.jpg?w=767",
+        "distance_to_park": "10 min à pied",
+        "features": [
+          "Thème Marvel",
+          "Galerie d’art Marvel",
+          "Rooftop bar",
+          "Piscine intérieure & extérieure",
+          "Salle de fitness",
+          "Navette gratuite"
+        ],
+        "rating": 4.5,
+        "description": "Plongez dans l’univers Marvel dans un cadre art déco new-yorkais, à quelques pas des attractions Disney."
+      },
+      {
+        "id": "newport_bay_club",
+        "name": "Disney Newport Bay Club",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 4,
+        "price_per_night_eur": 400,
+        "address": "Avenue de la Fosse des Pressoirs, 77700 Chessy, France",
+        "phone": "+33 1 60 30 40 70",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-newport-bay-club",
+        "image_url": "https://media.disneylandparis.com/d4th/fr-fr/images/n025204_2050sep30_world_newport-bay-club-at-nightfall_5-2_tcm808-275091.jpg?w=767",
+        "distance_to_park": "15 min en navette gratuite",
+        "features": [
+          "Bord de lac",
+          "Piscine intérieure & extérieure",
+          "Spa & sauna",
+          "Bar et restaurant maritime",
+          "Kids club",
+          "Navette gratuite"
+        ],
+        "rating": 4.4,
+        "description": "Un grand hôtel nautique en bord de lac, alliant charme colonial et confort moderne, avec navette vers les parcs."
+      },
+      {
+        "id": "sequoia_lodge",
+        "name": "Disney Sequoia Lodge",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 3,
+        "price_per_night_eur": 330,
+        "address": "Rue de la Marnière, 77700 Chessy, France",
+        "phone": "+33 1 60 30 40 80",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-sequoia-lodge",
+        "image_url": "https://media.disneylandparis.com/d4th/fr-fr/images/N015683_2027sep30_hotel_sequoia_5-2_tcm808-240378.jpg?w=767",
+        "distance_to_park": "10 min en navette gratuite",
+        "features": [
+          "Thème forêt de séquoias",
+          "Piscine intérieure & extérieure",
+          "Feu de camp en soirée",
+          "Bar lounge",
+          "Kids club",
+          "Navette gratuite"
+        ],
+        "rating": 4.3,
+        "description": "Séjournez dans une atmosphère de lodge américain au cœur d’une forêt de séquoias, avec activités familiales et piscine."
+      },
+      {
+        "id": "hotel_cheyenne",
+        "name": "Disney Hotel Cheyenne",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 3,
+        "price_per_night_eur": 260,
+        "address": "Rue Royale, 77700 Chessy, France",
+        "phone": "+33 1 60 30 40 90",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-hotel-cheyenne",
+        "image_url": "https://media.disneylandparis.com/d4th/fr-fr/images/n016142_2022sep14_world_disney-hotel-cheyenne_16-9_tcm808-159374.jpg",
+        "distance_to_park": "20 min à pied ou navette",
+        "features": [
+          "Thème western",
+          "Kid’s club",
+          "Bar tex‑mex",
+          "Aire de jeux",
+          "Navette gratuite"
+        ],
+        "rating": 4.2,
+        "description": "Une expérience Far West conviviale pour toute la famille, avec des chambres décorées façon village de cow‑boys."
+      },
+      {
+        "id": "hotel_santa_fe",
+        "name": "Disney Hotel Santa Fe",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 2,
+        "price_per_night_eur": 240,
+        "address": "Avenue René Goscinny, 77700 Chessy, France",
+        "phone": "+33 1 60 30 41 00",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-hotel-santa-fe",
+        "image_url": "https://media.disneylandparis.com/d4th/fr-fr/images/n016223_2028mar14_santa-fe-hotel-outside_16-9_tcm808-158205.jpg",
+        "distance_to_park": "15 min en navette gratuite",
+        "features": [
+          "Thème route 66",
+          "Parking gratuit",
+          "Espace jeux enfants",
+          "Navette gratuite"
+        ],
+        "rating": 4.0,
+        "description": "Un hôtel coloré au style sud‑ouest américain, idéal pour les petits budgets tout en restant proche des parcs."
+      },
+      {
+        "id": "davy_crockett_ranch",
+        "name": "Disney Davy Crockett Ranch",
+        "type": "Disney",
+        "accommodation_category": "hotel",
+        "stars": 3,
+        "price_per_night_eur": 280,
+        "address": "Route de la Cascade, 77700 Bailly-Romainvilliers, France",
+        "phone": "+33 1 60 30 41 10",
+        "website_url": "https://www.disneylandparis.com/fr-fr/hotels/disneys-davy-crockett-ranch",
+        "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/63/00/f4/facade.jpg?w=900&h=500&s=1",
+        "distance_to_park": "15 min en voiture (parking inclus)",
+        "features": [
+          "Chalets en pleine forêt",
+          "Cuisine équipée",
+          "Piscine extérieure",
+          "Toboggans aquatiques",
+          "Aire de jeux",
+          "Parking inclus"
+        ],
+        "rating": 4.3,
+        "description": "Vivez la vie de trappeur dans un chalet individuel au cœur de la forêt, à quelques minutes en voiture des parcs."
+      }
+    ]
+  }
+  

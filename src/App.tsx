@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { TripProvider } from './context/TripContext';
+import { ThemeProvider } from './context/ThemeContext';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Accommodations from './pages/Accommodations';
+import Restaurants from './pages/Restaurants';
+import MyTrip from './pages/MyTrip';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <TripProvider>
+        <Router>
+          <div className="min-h-screen bg-snowDrift dark:bg-darkBg font-sans transition-colors duration-300">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/hebergements" element={<Accommodations />} />
+              <Route path="/restaurants" element={<Restaurants />} />
+              <Route path="/mon-sejour" element={<MyTrip />} />
+            </Routes>
+          </div>
+        </Router>
+      </TripProvider>
+    </ThemeProvider>
   );
 }
 

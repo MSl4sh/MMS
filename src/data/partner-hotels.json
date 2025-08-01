@@ -1,0 +1,136 @@
+{
+  "hotels": [
+    {
+      "id": "campanile_val_europe",
+      "name": "Campanile Val d'Europe",
+      "type": "Partner",
+      "stars": 3,
+      "price_per_night_eur": 120,
+      "address": "10 Avenue de la Fosse des Pressoirs, 77700 Magny-le-Hongre",
+      "phone": "+33 1 64 63 30 30",
+      "website_url": "https://www.campanile.com/fr/hotels/campanile-val-d-europe",
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600",
+      "distance_to_park": "5 min en voiture",
+      "features": [
+        "Parking gratuit",
+        "WiFi gratuit",
+        "Restaurant",
+        "Petit-déjeuner buffet",
+        "Climatisation",
+        "Accessible PMR"
+      ],
+      "rating": 4.1,
+      "description": "Hôtel moderne et confortable situé à proximité de Disneyland Paris, offrant un excellent rapport qualité-prix avec parking gratuit."
+    },
+    {
+      "id": "ibis_marne_la_vallee",
+      "name": "Ibis Marne la Vallée Val d'Europe",
+      "type": "Partner",
+      "stars": 3,
+      "price_per_night_eur": 140,
+      "address": "1 Place d'Ariane, 77700 Serris",
+      "phone": "+33 1 60 43 90 33",
+      "website_url": "https://www.ibis.com/fr/hotel-8396-ibis-marne-la-vallee-val-d-europe/index.shtml",
+      "image_url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=600",
+      "distance_to_park": "10 min en RER",
+      "features": [
+        "Navette gratuite Disney",
+        "Restaurant 24h/24",
+        "WiFi gratuit",
+        "Climatisation",
+        "Bar",
+        "Parking payant"
+      ],
+      "rating": 4.2,
+      "description": "Hôtel pratique avec navette gratuite vers les parcs Disney, parfait pour les familles avec un accès facile aux transports."
+    },
+    {
+      "id": "kyriad_disneyland",
+      "name": "Kyriad Disneyland Paris",
+      "type": "Partner",
+      "stars": 3,
+      "price_per_night_eur": 110,
+      "address": "10 Avenue de la Fosse des Pressoirs, 77700 Magny-le-Hongre",
+      "phone": "+33 1 64 63 30 50",
+      "website_url": "https://www.kyriad.com/fr/hotels/kyriad-disneyland-paris",
+      "image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=600",
+      "distance_to_park": "8 min en navette",
+      "features": [
+        "Piscine intérieure",
+        "Parking gratuit",
+        "WiFi gratuit",
+        "Restaurant",
+        "Navette Disney payante",
+        "Salle de fitness"
+      ],
+      "rating": 4.0,
+      "description": "Hôtel familial avec piscine intérieure, idéal pour se détendre après une journée dans les parcs Disney."
+    },
+    {
+      "id": "b_b_hotel_disneyland",
+      "name": "B&B HOTEL Disneyland",
+      "type": "Partner",
+      "stars": 2,
+      "price_per_night_eur": 89,
+      "address": "Avenue Johannes Gutenberg, 77700 Magny-le-Hongre",
+      "phone": "+33 8 92 78 80 29",
+      "website_url": "https://www.hotel-bb.com/fr/hotel/magny-le-hongre-disneyland",
+      "image_url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&h=600",
+      "distance_to_park": "12 min en voiture",
+      "features": [
+        "Petit prix",
+        "Parking gratuit",
+        "WiFi gratuit",
+        "Climatisation",
+        "Petit-déjeuner continental",
+        "Réception 24h/24"
+      ],
+      "rating": 3.8,
+      "description": "Solution économique pour visiter Disneyland Paris, hôtel simple et pratique avec tous les services essentiels."
+    },
+    {
+      "id": "radisson_blu_disneyland",
+      "name": "Radisson Blu Hotel at Disneyland Paris",
+      "type": "Partner",
+      "stars": 4,
+      "price_per_night_eur": 320,
+      "address": "Avenue Robert Schuman, 77700 Magny-le-Hongre",
+      "phone": "+33 1 64 17 90 00",
+      "website_url": "https://www.radissonblu.com/en/hotel-disneyland-paris",
+      "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&h=600",
+      "distance_to_park": "3 min à pied du parc",
+      "features": [
+        "Spa premium",
+        "Piscine intérieure",
+        "Restaurant gastronomique",
+        "Service de conciergerie",
+        "Salle de fitness",
+        "WiFi haut débit"
+      ],
+      "rating": 4.6,
+      "description": "Hôtel haut de gamme situé aux portes des parcs Disney, offrant luxe et confort avec un spa exceptionnel."
+    },
+    {
+      "id": "premiere_classe_bailly",
+      "name": "Premiere Classe Marne la Vallée",
+      "type": "Partner",
+      "stars": 1,
+      "price_per_night_eur": 65,
+      "address": "Voie des Ribaudes, 77700 Bailly-Romainvilliers",
+      "phone": "+33 1 64 30 20 30",
+      "website_url": "https://www.premiereclasse.com/fr/hotels/premiere-classe-marne-la-vallee-bailly-romainvilliers",
+      "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600",
+      "distance_to_park": "15 min en voiture",
+      "features": [
+        "Prix très économique",
+        "Parking gratuit",
+        "WiFi gratuit",
+        "Petit-déjeuner simple",
+        "Réception automatisée",
+        "Proche autoroute"
+      ],
+      "rating": 3.2,
+      "description": "Hébergement très économique pour les petits budgets, offrant l'essentiel pour un séjour Disney abordable."
+    }
+  ]
+} 
