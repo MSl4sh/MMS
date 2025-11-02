@@ -2,6 +2,7 @@
   "name": "mms-v1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MSl4sh.github.io/MMS",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
