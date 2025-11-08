@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTripContext } from '../context/TripContext';
 import ThemeToggle from './ThemeToggle';
+import { getPublicUrl } from '../utils/publicUrl';
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -29,7 +30,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 flex-shrink-0" onClick={closeMobileMenu}>
-            <img src="/MyMagicStay-logo.png" alt="Magic My Stay" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 object-contain"/>
+            <img src={getPublicUrl('/MyMagicStay-logo.png')} alt="Magic My Stay" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 object-contain"/>
             <span className="text-lg sm:text-xl font-bold text-charcoalWaltz dark:text-darkText transition-colors duration-300">My Magic Stay</span>
           </Link>
 

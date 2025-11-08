@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { TripProvider } from './context/TripContext';
 import { ThemeProvider } from './context/ThemeContext';
 import Header from './components/Header';
@@ -12,7 +12,7 @@ function App() {
   return (
     <ThemeProvider>
       <TripProvider>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="min-h-screen bg-snowDrift dark:bg-darkBg font-sans transition-colors duration-300">
             <Header />
             <Routes>
@@ -20,6 +20,8 @@ function App() {
               <Route path="/hebergements" element={<Accommodations />} />
               <Route path="/restaurants" element={<Restaurants />} />
               <Route path="/mon-sejour" element={<MyTrip />} />
+              {/* Redirection vers l'accueil pour toutes les routes non trouvées */}
+              <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </div>
         </Router>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { getPublicUrl } from '../utils/publicUrl';
 
 // Import des données pour les compteurs
 import hotelsData from '../data/hotels.json';
@@ -54,7 +55,7 @@ const Home: React.FC = () => {
                   className="inline-flex items-center justify-center bg-fairyGold hover:bg-yellow-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
                 >
                   <img 
-                    src="/icons/hebergment-icon.png" 
+                    src={getPublicUrl('/icons/hebergment-icon.png')} 
                     alt="Hébergements" 
                     className="w-5 h-5 mr-3 filter brightness-0 invert"
                   />
@@ -65,7 +66,7 @@ const Home: React.FC = () => {
                   className="inline-flex items-center justify-center border-2 border-mistyMauve text-mistyMauve hover:bg-mistyMauve hover:text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 group"
                 >
                   <img 
-                    src="/icons/restaurant-icon.png" 
+                    src={getPublicUrl('/icons/restaurant-icon.png')} 
                     alt="Restaurants" 
                     className="w-5 h-5 mr-3 group-hover:filter group-hover:brightness-0 group-hover:invert transition-all duration-200"
                   />
@@ -80,7 +81,7 @@ const Home: React.FC = () => {
                 {/* Carte principale */}
                 <div className="bg-white dark:bg-darkCard rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-all duration-300">
                   <div className="flex items-center mb-6">
-                    <img src="/MyMagicStay-logo.png" alt="My Magic Stay" className="w-12 h-12 object-contain mr-4"/>
+                    <img src={getPublicUrl('/MyMagicStay-logo.png')} alt="My Magic Stay" className="w-12 h-12 object-contain mr-4"/>
                     <div>
                       <h3 className="font-bold text-charcoalWaltz dark:text-darkText transition-colors duration-300">My Magic Stay</h3>
                       <p className="text-sm text-stoneGray dark:text-darkSecondary transition-colors duration-300">Planificateur de séjour</p>
@@ -91,7 +92,7 @@ const Home: React.FC = () => {
                     <div className="flex items-center p-3 bg-cloudSand dark:bg-darkBg rounded-lg transition-colors duration-300">
                       <div className="w-10 h-10 bg-fairyGold rounded-lg flex items-center justify-center mr-3 p-2">
                         <img 
-                          src="/icons/hebergment-icon.png" 
+                          src={getPublicUrl('/icons/hebergment-icon.png')} 
                           alt="Hébergement" 
                           className="w-full h-full object-contain filter brightness-0 invert"
                         />
@@ -106,7 +107,7 @@ const Home: React.FC = () => {
                     <div className="flex items-center p-3 bg-cloudSand dark:bg-darkBg rounded-lg transition-colors duration-300">
                       <div className="w-10 h-10 bg-mistyMauve rounded-lg flex items-center justify-center mr-3 p-2">
                         <img 
-                          src="/icons/restaurant-icon.png" 
+                          src={getPublicUrl('/icons/restaurant-icon.png')} 
                           alt="Restaurant" 
                           className="w-full h-full object-contain filter brightness-0 invert"
                         />
@@ -163,7 +164,7 @@ const Home: React.FC = () => {
             >
               <div className="w-16 h-16 bg-fairyGold rounded-lg flex items-center justify-center mb-4 p-3 group-hover:bg-mistyMauve transition-colors duration-200">
                 <img 
-                  src="/icons/hebergment-icon.png" 
+                  src={getPublicUrl('/icons/hebergment-icon.png')} 
                   alt="Hébergements" 
                   className="w-full h-full object-contain filter brightness-0 invert"
                 />
@@ -186,7 +187,7 @@ const Home: React.FC = () => {
             >
               <div className="w-16 h-16 bg-mistyMauve rounded-lg flex items-center justify-center mb-4 p-3 group-hover:bg-fairyGold transition-colors duration-200">
                 <img 
-                  src="/icons/restaurant-icon.png" 
+                  src={getPublicUrl('/icons/restaurant-icon.png')} 
                   alt="Restaurants" 
                   className="w-full h-full object-contain filter brightness-0 invert"
                 />
@@ -206,7 +207,7 @@ const Home: React.FC = () => {
             <div className="bg-white dark:bg-darkCard p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-fairyGold rounded-lg flex items-center justify-center mb-4 p-3">
                 <img 
-                  src="/icons/user-group-icon.png" 
+                  src={getPublicUrl('/icons/user-group-icon.png')} 
                   alt="Activités" 
                   className="w-full h-full object-contain filter brightness-0 invert"
                 />

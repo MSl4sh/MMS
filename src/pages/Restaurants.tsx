@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import RestaurantCard, { Restaurant } from '../components/RestaurantCard';
+import { getPublicUrl } from '../utils/publicUrl';
 
 // Import des données
 import restaurantsData from '../data/restaurants.json';
@@ -168,7 +169,7 @@ const Restaurants: React.FC = () => {
           <div className="flex items-center justify-center mb-6">
             <div className="w-12 h-12 bg-mistyMauve rounded-lg flex items-center justify-center mr-4 p-2">
               <img 
-                src="/icons/restaurant-icon.png" 
+                src={getPublicUrl('/icons/restaurant-icon.png')} 
                 alt="Restaurants" 
                 className="w-full h-full object-contain filter brightness-0 invert"
               />

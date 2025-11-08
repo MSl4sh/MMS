@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTripContext } from '../context/TripContext';
 import { Link } from 'react-router-dom';
+import { getPublicUrl } from '../utils/publicUrl';
 
 const MyTrip: React.FC = () => {
   const { 
@@ -42,7 +43,7 @@ const MyTrip: React.FC = () => {
             <div className="flex items-center justify-center mb-6">
               <div className="w-12 h-12 bg-fairyGold rounded-lg flex items-center justify-center mr-4 p-2">
                 <img 
-                  src="/icons/calendar-icon.png" 
+                  src={getPublicUrl('/icons/calendar-icon.png')} 
                   alt="Mon Séjour" 
                   className="w-full h-full object-contain filter brightness-0 invert"
                 />
@@ -60,7 +61,7 @@ const MyTrip: React.FC = () => {
             <div className="bg-white dark:bg-darkCard rounded-lg p-8 shadow-sm max-w-md mx-auto transition-colors duration-300">
               <div className="w-16 h-16 bg-cloudSand dark:bg-darkBg rounded-full flex items-center justify-center mx-auto mb-4 p-3 transition-colors duration-300">
                 <img 
-                  src="/icons/calendar-icon.png" 
+                  src={getPublicUrl('/icons/calendar-icon.png')} 
                   alt="Séjour vide" 
                   className="w-full h-full object-contain opacity-60"
                 />
@@ -78,7 +79,7 @@ const MyTrip: React.FC = () => {
                 >
                   <div className="w-5 h-5 mr-3">
                     <img 
-                      src="/icons/hebergment-icon.png" 
+                      src={getPublicUrl('/icons/hebergment-icon.png')} 
                       alt="Hébergement" 
                       className="w-full h-full object-contain filter brightness-0 invert"
                     />
@@ -91,7 +92,7 @@ const MyTrip: React.FC = () => {
                 >
                   <div className="w-5 h-5 mr-3">
                     <img 
-                      src="/icons/restaurant-icon.png" 
+                      src={getPublicUrl('/icons/restaurant-icon.png')} 
                       alt="Restaurant" 
                       className="w-full h-full object-contain filter brightness-0 invert"
                     />
@@ -114,7 +115,7 @@ const MyTrip: React.FC = () => {
           <div className="flex items-center justify-center mb-6">
             <div className="w-12 h-12 bg-fairyGold rounded-lg flex items-center justify-center mr-4 p-2">
               <img 
-                src="/icons/calendar-icon.png" 
+                src={getPublicUrl('/icons/calendar-icon.png')} 
                 alt="Mon Séjour" 
                 className="w-full h-full object-contain filter brightness-0 invert"
               />
@@ -135,7 +136,7 @@ const MyTrip: React.FC = () => {
               <div className="flex items-center mb-4">
                 <div className="w-8 h-8 bg-fairyGold rounded-lg flex items-center justify-center mr-3 p-1.5">
                   <img 
-                    src="/icons/calendar-icon.png" 
+                    src={getPublicUrl('/icons/calendar-icon.png')} 
                     alt="Configuration" 
                     className="w-full h-full object-contain filter brightness-0 invert"
                   />
@@ -150,7 +151,7 @@ const MyTrip: React.FC = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-4 h-4 mr-2">
                     <img 
-                      src="/icons/calendar-icon.png" 
+                      src={getPublicUrl('/icons/calendar-icon.png')} 
                       alt="Dates" 
                       className="w-full h-full object-contain opacity-60"
                     />
@@ -175,7 +176,7 @@ const MyTrip: React.FC = () => {
                     />
                     <div className="absolute left-4 top-1/2 transform -translate-y-1/2 w-4 h-4">
                       <img 
-                        src="/icons/calendar-icon.png" 
+                        src={getPublicUrl('/icons/calendar-icon.png')} 
                         alt="Calendrier" 
                         className="w-full h-full object-contain opacity-40"
                       />
@@ -198,7 +199,7 @@ const MyTrip: React.FC = () => {
                     />
                     <div className="absolute left-4 top-1/2 transform -translate-y-1/2 w-4 h-4">
                       <img 
-                        src="/icons/calendar-icon.png" 
+                        src={getPublicUrl('/icons/calendar-icon.png')} 
                         alt="Calendrier" 
                         className="w-full h-full object-contain opacity-40"
                       />
@@ -230,7 +231,7 @@ const MyTrip: React.FC = () => {
                 >
                   <div className="w-4 h-4 mr-2">
                     <img 
-                      src="/icons/calendar-icon.png" 
+                      src={getPublicUrl('/icons/calendar-icon.png')} 
                       alt="Confirmer" 
                       className="w-full h-full object-contain filter brightness-0 invert"
                     />
@@ -244,7 +245,7 @@ const MyTrip: React.FC = () => {
                 <div className="flex items-center mb-2">
                   <div className="w-4 h-4 mr-2">
                     <img 
-                      src="/icons/user-group-icon.png" 
+                      src={getPublicUrl('/icons/user-group-icon.png')} 
                       alt="Voyageurs" 
                       className="w-full h-full object-contain opacity-60"
                     />
@@ -290,7 +291,7 @@ const MyTrip: React.FC = () => {
                 <div className="flex items-center mb-2">
                   <div className="w-5 h-5 mr-2">
                     <img 
-                      src="/icons/budget-icon.png" 
+                      src={getPublicUrl('/icons/budget-icon.png')} 
                       alt="Budget" 
                       className="w-full h-full object-contain opacity-80"
                     />
@@ -327,7 +328,7 @@ const MyTrip: React.FC = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-6 h-6 bg-fairyGold rounded-lg flex items-center justify-center mr-3 p-1">
                     <img 
-                      src="/icons/hebergment-icon.png" 
+                      src={getPublicUrl('/icons/hebergment-icon.png')} 
                       alt="Hébergements" 
                       className="w-full h-full object-contain filter brightness-0 invert"
                     />
@@ -374,7 +375,7 @@ const MyTrip: React.FC = () => {
                 <div className="flex items-center mb-4">
                   <div className="w-6 h-6 bg-mistyMauve rounded-lg flex items-center justify-center mr-3 p-1">
                     <img 
-                      src="/icons/restaurant-icon.png" 
+                      src={getPublicUrl('/icons/restaurant-icon.png')} 
                       alt="Restaurants" 
                       className="w-full h-full object-contain filter brightness-0 invert"
                     />

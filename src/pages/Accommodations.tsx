@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import HotelCard, { Hotel } from '../components/HotelCard';
+import { getPublicUrl } from '../utils/publicUrl';
 
 // Import des données
 import hotelsData from '../data/hotels.json';
@@ -172,7 +173,7 @@ const Accommodations: React.FC = () => {
           <div className="flex items-center justify-center mb-6">
             <div className="w-12 h-12 bg-fairyGold rounded-lg flex items-center justify-center mr-4 p-2">
               <img 
-                src="/icons/hebergment-icon.png" 
+                src={getPublicUrl('/icons/hebergment-icon.png')} 
                 alt="Hébergements" 
                 className="w-full h-full object-contain filter brightness-0 invert"
               />
