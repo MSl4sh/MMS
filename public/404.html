@@ -3,23 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MyMagicStay - Page non trouvée</title>
+    <title>MyMagicStay</title>
     <script>
-      // Redirection pour GitHub Pages avec React Router
-      // Cette page est servie quand une route n'existe pas
-      var pathSegmentsToKeep = 1;
+      // Redirection vers l'accueil pour GitHub Pages
+      // Avec HashRouter, toutes les routes sont gérées côté client
       var l = window.location;
-      var basePath = '/MMS'; // Correspond à la homepage dans package.json
-      
-      // Récupérer le chemin demandé
-      var requestedPath = l.pathname.replace(basePath, '');
-      
-      // Rediriger vers l'accueil avec le chemin en hash pour React Router
-      l.replace(
-        basePath + '/?/' + requestedPath.slice(1).replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      var basePath = '/MMS';
+      // Rediriger vers l'accueil avec le hash
+      l.replace(basePath + '/#/');
     </script>
   </head>
   <body>
